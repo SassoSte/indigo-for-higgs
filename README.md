@@ -97,3 +97,16 @@ python3 tools/verify_cut14.py bay/film-shahed-strike-cut16-<name>.mp4
 
 The verifier checks container, frame count, black and freeze frames, and cut points. It does **not** detect
 redraw. Full history and measurements: `bay/cut16-trial-notes.md`.
+
+## Results of the three tries (2026-10-06)
+
+All three were run by the Higgsfield agent and re-verified independently. None is a usable single shot.
+
+| Try | Engine | Outcome |
+|---|---|---|
+| 1 | Seedance 2.5 omni_reference, plate as video ref | New tracking shot for 2.3 s, then a dissolve into the reference plate. No bars, flat grade. |
+| 2 | Kling 3.0 pro, start image only | Second red SUV appears. Camera does lock as prompted. |
+| 3 | Cinematic Studio Video 3.5, start image + grade ref | Hard cut at frame 41 to a static wide. Frames 0-40 are a good low-angle opening. |
+
+Nine takes on four engines, zero continuous moves landing on a rigid parked lot. The shot is now built as
+try 3's first 41 frames plus a deliberate cut to the Cut 15 plate. Do not rerun these prompts unchanged.
